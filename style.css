@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    display: flex;
+    background-color: rgb(234, 158, 158);
+    justify-content: center; /*horizontaly center the items in display flex */
+    align-items: center; /* Verticaly center the items/Content */
+    height: 100vh;
+}
+
+
+.text{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.digit{
+    border: 2px solid;
+    margin: 2px 20px 2px 2px;
+    border-radius: 1rem;
+    background-color: rgb(180, 191, 201);
+    font-size: 7rem;
+}
+
+/* Button Section */
+
+#btnContainer{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.btn{
+    padding: 11px;
+    width: 4.5rem;
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 0.8rem;
+    border-radius: 0.8rem;
+}
+
+.btn:hover{
+    color: black;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+/* Color classes */
+
+.green{
+    background-color: rgb(59, 194, 59);
+    box-shadow: inset 1px 1px 8px 1px greenyellow;
+}
+
+.red{
+    background-color: red;
+    box-shadow: inset 1px 1px 8px 1px red;
+}
+
+.blue{
+    background-color: blue;
+    box-shadow: inset 1px 1px 8px 1px blue;
+}

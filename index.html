@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <!-- Link to css file for styling -->
+    <link rel="stylesheet" href="./style.css"> 
+</head>
+<body>
+    <!-- Digits container -->
+    <div id="container">
+        <div id="time">
+            <!-- used span to put the timer digits in coloums -->
+            <span id="hr" class="digit">00</span>
+            <span class="text">Hr</span>
+            <span id="mints" class="digit">00</span>
+            <span class="text">Mints</span>
+            <span id="sec" class="digit">00</span>
+            <span class="text">Sec</span>
+            <span id="count" class="digit">00</span>
+        </div>
+
+        <!-- Button container, which handles the events of stopwatch -->
+        <div id="btnContainer">
+            <!-- Button to start the timer -->
+            <button class="btn green " onclick="start()">START</button>
+            <!-- Button to stop the timer -->
+            <button class="btn red" onclick="stop()">STOP</button>
+            <!-- Button to Reset the timer -->
+            <button class="btn blue" onclick="reset()">RESET</button>
+        </div>
+    </div>
+    <!-- Link to javaScript file -->
+    <script src="./java.js"></script>
+</body>
+</html>
